@@ -55,46 +55,44 @@ TripNest is an online marketplace for short-term homestays and experiences. With
 
 ## 🚀Getting Started
 
-<hr/>
-
 1. ### Clone the repository
 
-    ```shell
-    git clone https://github.com/amirmalekian/tripnest.git
-    ```
+```shell
+git clone https://github.com/amirmalekian/tripnest.git
+```
 
 2. ### Install packages
 
-    ```shell
-    npm install
-    #or
-    yarn add
-    ```
+```shell
+npm install
+#or
+yarn add
+```
 
 3. ### Setup .env file
 
-    ```js
-    DATABASE_URL=
-    GOOGLE_CLIENT_ID=
-    GOOGLE_CLIENT_SECRET=
-    GITHUB_ID=
-    GITHUB_SECRET=
-    NEXTAUTH_SECRET=
-    ```
+```js
+DATABASE_URL=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GITHUB_ID=
+GITHUB_SECRET=
+NEXTAUTH_SECRET=
+```
 
 4. ### Setup Prisma
 
-    ```shell
-    npx prisma db push
-    ```
+```shell
+npx prisma db push
+```
 
 5. ### Run the development server
 
-    ```shell
-    npm run dev
-    ```
+```shell
+npm run dev
+```
 
-    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## 🤝Contributing
 
